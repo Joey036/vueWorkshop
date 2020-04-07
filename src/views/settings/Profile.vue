@@ -82,7 +82,7 @@
         <CRow>
           <CCol sm="8">
             <div class="form-group">
-              <label class>Country</label>
+              <label>Country</label>
               <select v-model="form.country" class="form-control">
                 <option disabled value>Please select one</option>
                 <option
@@ -200,7 +200,6 @@
 <script>
 import PROVINCE from "../../assets/model/PROVINCE.json";
 import DISTRICT from "../../assets/model/DISTRICT.json";
-import SUBDISTRICT from "../../assets/model/SUBDISTRICTS.json";
 import DATE from "../../assets/model/DATE.json";
 export default {
   name: "Profile",
@@ -286,38 +285,3 @@ export default {
   }
 };
 </script>
-
-<style>
-.img-circle {
-  border-radius: 50%;
-}
-img.img-circle {
-  background: #fff;
-}
-.img-span {
-  left: 0;
-  text-align: center;
-  width: 100%;
-  background: rgb(185, 183, 183);
-  bottom: 0;
-  padding: 20px 0;
-  opacity: 70%;
-  position: absolute;
-  color: black;
-}
-.img-thumbnail {
-  border-radius: 50%;
-  display: inline-block;
-  overflow: hidden;
-  background: #333;
-}
-.img-thumbnail > div {
-  display: inline-block;
-  overflow: hidden;
-  height: 125px;
-  border: 3px solid #fff;
-  -webkit-box-shadow: 0 1px 0 1px #333;
-  box-shadow: 0 1px 0 1px #333;
-  border-radius: 50%;
-}
-</style>
