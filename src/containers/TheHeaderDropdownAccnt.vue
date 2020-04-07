@@ -41,7 +41,7 @@
     >
       <strong>Settings</strong>
     </CDropdownHeader>
-    <CDropdownItem>
+    <CDropdownItem to="/settings/profile">
       <CIcon name="cil-user" /> Profile
     </CDropdownItem>
     <CDropdownItem>
